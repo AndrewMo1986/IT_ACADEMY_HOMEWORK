@@ -1,0 +1,45 @@
+h1 {
+    color: red;
+    size: 15px;
+    margin-left: 200px;
+}
+
+h2 {
+    background: burlywood;
+    size: 14px;
+    margin: 50px;
+}
+.part1 {
+    margin: 30px;
+}
+
+mark {
+    background: cadetblue;
+    color: brown;
+}
+
+.part2 {
+    color: red;
+    width: 500px;
+}
+
+.img1 {
+    margin: 0px 100px 30px;
+}
+
+.form1 {
+    margin-top: 50px;
+    margin-left: 120px;
+    margin-bottom: 50px;
+}
+
+table {
+    border: 2px solid black;
+    margin-left: 120px;
+}
+
+th {
+    text-align: left;
+    background: black;
+    color: white;
+}
