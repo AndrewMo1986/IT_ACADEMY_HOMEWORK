@@ -14,11 +14,21 @@
     src: url("fonts/K2D/K2D-BoldItalic.ttf");
     src: url("fonts/K2D/K2D-Medium.ttf");
 }
+header {
+    background: darkblue;
+    width: 100%;
+    height: 100px;
+}
+main {
+    width: 950px;
+    margin-left: 200px;
+
+}
 
 h1 {
     color: red;
     size: 20px;
-    margin-left: 400px;
+    margin-left: 200px;
     font-family: Mali, cursive ;
 }
 
@@ -29,26 +39,32 @@ h2 {
     margin: 50px;
 }
 .part1 {
+    font-family: K2D, sans-serif;
     margin: 30px;
 }
 
-mark {
-    background: cadetblue;
-    color: brown;
-}
 
 .part2 {
-    color: red;
-    width: 500px;
+    font-family: K2D, serif;
+    font-size: 17px;
 }
 
 .img1 {
-    margin: 0px 100px 30px;
+    margin: 0px 0px 30px;
 }
 
 .form1 {
     margin-top: 50px;
-    margin-left: 120px;
+
+    margin-bottom: 50px;
+}
+
+footer {
+    width: 100%;
+    background: darkblue;
+    color: white;
+    padding-bottom: 5px;
+    padding-top: 20px;
     margin-bottom: 50px;
 }
 
