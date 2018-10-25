@@ -1,12 +1,26 @@
+@font-face {
+    font-family: Mali;
+    src: url("fonts/Mali/Mali-Bold.ttf");
+    src: url("fonts/Mali/Mali-BoldItalic.ttf");
+    src: url("fonts/Mali/Mali-Medium.ttf");
+
+    font-family: Raleway;
+    src: url("fonts/Raleway/Raleway-Black.ttf");
+    src: url("fonts/Raleway/Raleway-BoldItalic.ttf");
+    src: url("fonts/Raleway/Raleway-Medium.ttf");
+}
+
 h1 {
     color: red;
-    size: 15px;
-    margin-left: 200px;
+    size: 20px;
+    margin-left: 400px;
+    font-family: Mali, cursive ;
 }
 
 h2 {
-    background: burlywood;
-    size: 14px;
+    font-family: Raleway, monospace;
+    background: aquamarine;
+    size: 17px;
     margin: 50px;
 }
 .part1 {
@@ -33,13 +47,3 @@ mark {
     margin-bottom: 50px;
 }
 
-table {
-    border: 2px solid black;
-    margin-left: 120px;
-}
-
-th {
-    text-align: left;
-    background: black;
-    color: white;
-}
