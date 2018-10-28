@@ -26,21 +26,44 @@ main {
 
 .block6_7 {
     width: 900px;
-    height: 650px;
+    height: 600px;
     background: burlywood;
     border: 2px solid black;
-    overflow: auto;
     padding: 10px;
-    display: inline-block;
+    overflow: auto;
+
 }
 .box1, .box2, .box3, .box4, .box5, .box6
-{
-    width: 200px;
-    height: 700px;
+{   width: 200px;
+    height: 600px;
     background: yellow;
-    border: 3px solid brown;
+    border: 5px solid brown;
     display: inline-block;
-    float: left;
+    margin: 5px;
+    overflow: auto;
+}
+
+.cell1 {
+    width: 195px;
+    height: 150px;
+    text-align: center;
+    border: 2px solid black;
+    overflow: auto;
+    margin: 5px;
+}
+.cell2 {
+    width: 195px;
+    height: 300px;
+    border: 2px solid black;
+    overflow: auto;
+    margin: 5px;
+}
+.cell3 {
+    width: 195px;
+    height: 250px;
+    border: 2px solid black;
+    overflow: auto;
+    margin: 5px;
 }
 h1 {
     color: red;
