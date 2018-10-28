@@ -17,14 +17,19 @@
 header {
     background: darkblue;
     width: 100%;
-    height: 100px;
+    height: 150px;
 }
 main {
     width: 950px;
     margin-left: 200px;
-
 }
 
+.block6_7 {
+    width: 1000px;
+    height: 650px;
+    background: burlywood;
+    border: 2px solid black;
+}
 h1 {
     color: red;
     size: 20px;
@@ -47,6 +52,7 @@ h2 {
 .part2 {
     font-family: K2D, serif;
     font-size: 17px;
+    margin-top: 50px;
 }
 
 .img1 {
@@ -55,7 +61,6 @@ h2 {
 
 .form1 {
     margin-top: 50px;
-
     margin-bottom: 50px;
 }
 
