@@ -20,16 +20,18 @@ header {
     height: 150px;
 }
 main {
-    width: 950px;
+    width: 80%;
     margin-left: 200px;
+
 }
 
 .block6_7 {
-    width: 900px;
+    width: 950px;
     height: 600px;
     background: burlywood;
     border: 2px solid black;
     padding: 10px;
+    margin: 20px;
     overflow: auto;
 
 }
@@ -60,6 +62,21 @@ main {
     height: 250px;
     overflow-y: scroll;
     margin: 5px;
+}
+.text6_7 {
+    width: 950px;
+    height: 600px;
+    background: aquamarine;
+    margin-left: 20px;
+    padding: 20px;
+}
+.textblock1 {
+    margin: 10px 200px 10px 200px;
+}
+.block1, .block2, .block3, .block4, .block5, .block6, .block7, .block8  {
+    background: brown;
+    padding: 10px 10px 10px 10px;
+
 }
 h1 {
     color: red;
