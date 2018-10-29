@@ -29,9 +29,12 @@ main {
     width: auto;
     border: 2px solid black;
     margin: 10px;
-    padding: 20px;
+    padding-right: 10px;
     display: inline-block;
     position: fixed;
+}
+li {
+    margin: 5px;
 }
 
 .block6_7 {
@@ -41,8 +44,9 @@ main {
     border: 2px solid black;
     padding: 10px;
     margin: 20px;
-    overflow: auto;
+    overflow-x: auto;
 }
+
 .box1, .box2, .box3, .box4, .box5, .box6
 {   width: 200px;
     height: 600px;
@@ -84,13 +88,15 @@ main {
 .block1, .block2, .block3, .block4, .block5, .block6, .block7, .block8  {
     background: brown;
     padding: 10px 10px 10px 10px;
-
+}
+.block1:hover {
+    background-position: 100px 0;
 }
 h1 {
     color: red;
     size: 20px;
-    margin-left: 200px;
-    font-family: Mali, cursive ;
+    margin-left: 300px;
+    font-family: Mali, cursive;
 }
 
 h2 {
