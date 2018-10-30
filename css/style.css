@@ -44,7 +44,8 @@ li {
     border: 2px solid black;
     padding: 10px;
     margin: 20px;
-    overflow-x: auto;
+    overflow-y: auto;
+    white-space: nowrap;
 }
 
 .box1, .box2, .box3, .box4, .box5, .box6
