@@ -35,7 +35,10 @@ main {
 li {
     margin: 5px;
 }
-
+.link:target {
+    background: green;
+    color: red;
+}
 
 .block6_7 {
     width: 950px;
