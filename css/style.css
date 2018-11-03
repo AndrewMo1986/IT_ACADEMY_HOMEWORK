@@ -126,8 +126,13 @@ h2 {
 }
 
 .form1 {
+    width: 300px;
     margin-top: 50px;
     margin-bottom: 50px;
+    border: 2px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 10px 10px 10px 10px;
 }
 
 footer {
