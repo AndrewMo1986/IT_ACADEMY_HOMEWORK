@@ -45,40 +45,35 @@ section {
     height: 600px;
     background: burlywood;
     border: 2px solid black;
-    padding: 10px;
-    margin: 20px;
-    overflow-y: auto;
+    margin: 0 auto;
+    padding: 5px;
+    overflow-y: hidden;
+    overflow-x: auto;
     white-space: nowrap;
+    counter-reset: col;
 }
 
-.box1, .box2, .box3, .box4, .box5, .box6
-{   width: 200px;
-    height: 600px;
-    background: yellow;
-    border: 5px solid brown;
+section .col {
+    width: 200px;
+    height: 100%;
+    background: blue;
     display: inline-block;
-    margin: 5px;
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    counter-increment: col;
+    counter-reset: cell;
+}
+section .col .cell {
+    width: 100%;
+    height: 300px;
+    background: chartreuse;
+    margin: 0 0 5px;
+    counter-increment: cell;
+}
+section .col .cell::before {
+    content: "Стовбсчик-" counter(col) " Клітинка-"counter(cell);
 }
 
-.cell1 {
-    width: 195px;
-    height: 150px;
-    overflow-y: scroll;
-    margin: 5px;
-}
-.cell2 {
-    width: 195px;
-    height: 300px;
-    overflow-y: scroll;
-    margin: 5px;
-}
-.cell3 {
-    width: 195px;
-    height: 250px;
-    overflow-y: scroll;
-    margin: 5px;
-}
 .text6_7 {
     width: 950px;
     height: 600px;
