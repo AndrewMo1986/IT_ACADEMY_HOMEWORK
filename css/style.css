@@ -73,22 +73,29 @@ section .col .cell {
 section .col .cell::before {
     content: "Стовбсчик-" counter(col) " Клітинка-"counter(cell);
 }
-
-.text6_7 {
-    width: 950px;
-    height: 600px;
-    background: aquamarine;
-    margin-left: 20px;
-    padding: 20px;
+.hover {
+    width: 50%;
+    margin: 0 auto;
 }
-.textblock1 {
-    margin: 10px 200px 10px 200px;
+.hover p {
+   position: relative;
 }
-.block1, .block2, .block3, .block4, .block5, .block6, .block7, .block8  {
-    background: brown;
-    padding: 10px 10px 10px 10px;
+.hover p::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: #805c0c;
+    opacity: 0.5;
 }
-
+.hover p:nth-child(odd):hover::before {
+    left: -50%;
+}
+.hover p:nth-child(even):hover::before {
+    right: -50%;
+}
 h1 {
     color: red;
     size: 20px;
