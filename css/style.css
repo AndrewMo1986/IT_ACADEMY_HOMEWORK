@@ -40,7 +40,7 @@ li {
     color: red;
 }
 
-.block6_7 {
+section {
     width: 950px;
     height: 600px;
     background: burlywood;
@@ -94,7 +94,6 @@ li {
     padding: 10px 10px 10px 10px;
 }
 
-}
 h1 {
     color: red;
     size: 20px;
