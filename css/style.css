@@ -14,16 +14,19 @@
     src: url("fonts/K2D/K2D-BoldItalic.ttf");
     src: url("fonts/K2D/K2D-Medium.ttf");
 }
+
 header {
     background: darkblue;
     width: 100%;
     height: 150px;
 }
+
 main {
     width: 80%;
     margin-left: 200px;
 
 }
+
 .menu {
     background: white;
     width: auto;
@@ -32,9 +35,11 @@ main {
     padding-right: 10px;
     position: fixed;
 }
+
 li {
     margin: 5px;
 }
+
 .link:target {
     background: green;
     color: red;
@@ -63,6 +68,7 @@ section .col {
     counter-increment: col;
     counter-reset: cell;
 }
+
 section .col .cell {
     width: 100%;
     height: 300px;
@@ -70,32 +76,39 @@ section .col .cell {
     margin: 0 0 5px;
     counter-increment: cell;
 }
+
 section .col .cell::before {
-    content: "Стовбсчик-" counter(col) " Клітинка-"counter(cell);
+    content: "Стовбсчик-" counter(col) " Клітинка-" counter(cell);
 }
-.hover {
+
+.textanim {
     width: 50%;
     margin: 0 auto;
 }
-.hover p {
-   position: relative;
+
+.textanim p {
+    position: relative;
 }
-.hover p::before {
+
+.textanim p::before {
     content: "";
     position: absolute;
-    top: 0;
-    bottom: 0;
     width: 100%;
     height: 100%;
-    background: #805c0c;
+    background: #80200a;
     opacity: 0.5;
 }
-.hover p:nth-child(odd):hover::before {
+
+.textanim p:nth-child(odd):hover::before {
     left: -50%;
+    background: linear-gradient(to left, #80200a, white);
 }
-.hover p:nth-child(even):hover::before {
+
+.textanim p:nth-child(even):hover::before {
     right: -50%;
+    background: linear-gradient(to right, #80200a, white);
 }
+
 h1 {
     color: red;
     size: 20px;
@@ -109,11 +122,11 @@ h2 {
     size: 17px;
     margin: 50px;
 }
+
 .part1 {
     font-family: K2D, sans-serif;
     margin: 30px;
 }
-
 
 .part2 {
     font-family: K2D, serif;
@@ -136,17 +149,21 @@ h2 {
     border-radius: 20px;
     background: cadetblue;
 }
+
 input {
-    border: 3px solid red;
-    box-shadow: 10px 10px 10px red;
     background: chartreuse;
+    box-shadow: 8px 7px 13px 3px chartreuse;
+}
+input:focus {
+   border: 5px solid green;
+
 }
 textarea {
-    border: 2px solid green;
-    box-shadow: 10px 10px 10px green;
-    background: yellow ;
+    background: yellow;
 }
-
+textarea:focus {
+    border: 5px solid red;
+}
 footer {
     width: 100%;
     background: darkblue;
